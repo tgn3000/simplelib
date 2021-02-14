@@ -1,1 +1,2 @@
 package simplelib
+import "C"
