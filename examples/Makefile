@@ -1,5 +1,5 @@
 main: main.go
-	go build $?
+	go build -o $@ $?
 
 clean:
 	go clean
