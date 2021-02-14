@@ -1,4 +1,6 @@
-%module simplelib
+%module(directors="1") simplelib
+
+%feature("director") SimpleClassCallback;
 %{
 #include "simpleclass.h"
 %}

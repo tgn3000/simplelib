@@ -26,7 +26,10 @@ _testmain.go
 
 # Auto generated files by Swig:
 simplelib.go
+simplelib_wrap.h
 simplelib_wrap.cxx
 
 # macOS
 .DS_Store
+
+examples/main

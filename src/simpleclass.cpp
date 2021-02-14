@@ -15,3 +15,8 @@ void SimpleClass::helloBytes(std::vector<char> *results){
 	results->push_back('l');
 	results->push_back('d');
 }
+
+void SimpleClass::setCallBack(SimpleClassCallback *scc){
+	std::cout << "\nworld from callback!\n";
+	scc->onStart();
+}

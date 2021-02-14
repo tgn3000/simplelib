@@ -24,6 +24,10 @@ func main() {
     for i = 0; i < bytes.Size(); i++ {
         fmt.Printf("%c", bytes.Get(int(i)))
     }
-    fmt.Println("")
 
+    c := simplelib.NewSCCGo()
+    simpleClass.SetCallBack(c)
+    simplelib.DeleteSCCGo(c)
+
+    fmt.Println("")
 }
