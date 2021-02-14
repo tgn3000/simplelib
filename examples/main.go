@@ -1,8 +1,9 @@
+// export GOPATH=`git rev-parse --show-toplevel`
 package main
 
 import (
     "fmt"
-    "github.com/zacg/simplelib/src"
+    "../src"
 )
 
 func main() {

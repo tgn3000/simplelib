@@ -1,7 +1,9 @@
+// export GOPATH=`git rev-parse --show-toplevel`
+
 package simplelib_test
 
 import (
-	"github.com/zacg/simplelib/src"
+	"../src"
 	"testing"
 )
 
